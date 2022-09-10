@@ -2,19 +2,20 @@
 /**
  * main - Entry point
  *
- * Author: nanjala24
- * Return: Always 0 (success)
+ * Details: using main function
+ * Author:nanjala24
+ * Return: 0
  */
 int main(void)
 {
 	char alphabet;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (alphabet= 'a' ; alphabet <= 'z' ; alphabet++)
 	{
-		if (alphabet != 'q' && alphabet != 'e')
+		if (alphabet != 'e' && alphabet != 'q')
 		{
 			putchar(alphabet);
 		}
-		putchar('\n');
-		return (0)
-	}
+	}putchar('\n');
+	return (0);
+}
