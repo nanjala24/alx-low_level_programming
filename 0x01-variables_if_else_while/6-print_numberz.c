@@ -13,6 +13,6 @@ int main(void)
 	for (numbers = 30; numbers < 40; numbers++)
 		putchar(numbers);
 	putchar('\n');
-	return (0)
+	return (0);
 
 }
