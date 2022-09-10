@@ -1,18 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - Entry point
- *
- * Description: using the main function
- *
- * Return: 0
+ * main -entry point
+ * Author: nanjala24
+ * Return: 0 (success)
  */
 int main(void)
 {
-	int i;
-	for (i = 0; i < 10; i++)
+	int num;
+
+	for (num = 0; num < 10; num++)
 	{
-		printf("%i", i);
+		printf("%d", num);
 	}
 	printf("\n");
-	return (0)
+	return (0);
+
 }
