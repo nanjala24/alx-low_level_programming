@@ -2,9 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ * main -Entry point
  * Author: nanjala24
- * Details: c program to print positive,zero and negative results of a random number
  * Return: 0 (success)
  */
 int main(void)
