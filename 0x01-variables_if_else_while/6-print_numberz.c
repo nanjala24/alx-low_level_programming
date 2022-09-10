@@ -1,18 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
- * main -entry point
- * Author: nanjala24
- * Return 0 (success)
+ * main -enrty point
+ *
+ * Return: 0
+ *
  */
 int main(void)
 {
-	int numbers;
+	int a = 0;
 
-	for (numbers = 30; numbers < 40; numbers++)
-		putchar(numbers);
+	for (; a < 10; a++)
+		putchar('0' + a);
 	putchar('\n');
 	return (0);
-
 }
