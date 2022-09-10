@@ -10,7 +10,7 @@ int main(void)
 {
 	int numberz;
 	
-	for (numberz = 48; numberz < 58; numberrz++)
+	for (numberz = 48; numberz < 58; numberz++)
 	{
 		putchar(numberz);
 		if (numberz != 57)
@@ -20,6 +20,6 @@ int main(void)
 				}
 				}
 				putchar('\n');
-				return (0)
+				return (0);
 
 				}
