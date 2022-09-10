@@ -1,8 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - Entry point
- *
- * Details: using main function
  * Author:nanjala24
  * Return: 0
  */
