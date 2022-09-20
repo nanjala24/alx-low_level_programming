@@ -3,16 +3,15 @@
 
 /**
  * print array - prints n elements of an array of integers
- * @a: integer
+ * @i: integer
  * @n: another integer
  * Return: 0
  */
 
-void print_array(int *a, int n)
+void print_array(int i, int n)
 {
 	int i;
-
-	i = 0
+	i = 0;
 	while (i < n)
 	{
 	printf("%d", a[i]);
@@ -21,5 +20,6 @@ void print_array(int *a, int n)
 	printf(", ");
 	i++;
 }
-print("\n");
+printf("\n");
+
 
