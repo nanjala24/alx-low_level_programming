@@ -3,23 +3,21 @@
 
 /**
  * print array - prints n elements of an array of integers
- * @i: integer
- * @n: another integer
+ * @a: array
+ * @n: number of elements
  * Return: 0
  */
 
-void print_array(int i, int n)
+void print_array(int *a, int n)
 {
-	int i;
-	i = 0;
-	while (i < n)
-	{
-	printf("%d", a[i]);
+int inc
 
-	if (i < n - 1)
-	printf(", ");
-	i++;
+for (inc = 0; inc < n ; inc++)
+{
+if (inc != n - 1)
+printf("d%, ", a[inc]);
+else
+printf("d%', a[inc]);
 }
-printf("\n");
-
-
+putchar(10);
+}
