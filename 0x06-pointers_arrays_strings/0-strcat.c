@@ -2,12 +2,12 @@
 
 /**
  * _strcat- function to concatenate string
- *  @dest: a pointer to a character that will be changed
- *  @src: pointer to another character that will be changed
- *  Return: dest
+ *  @dest: copy to
+ *  @src: copy from
+ *  Return: void
  */
 
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
 int i;
 int j;
