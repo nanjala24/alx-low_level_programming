@@ -9,7 +9,7 @@
 
 int prime_check(int s, int c)
 {
-if (s * s > c)
+	if (s * s > c)
 	return (1);
 if (c % s == 0)
 	return (0);
