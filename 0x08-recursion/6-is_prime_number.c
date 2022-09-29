@@ -1,29 +1,29 @@
 #include "main.h"
 
 /**
- * prime_check - verify if s is the square root of c
- * @s: parameter
- * @c: number to find if it is a prime number
- * Return: 1 or 0
+ * help - helps prime functions
+ * @n: the integer
+ * @x: check if n is divisible by x
+ * Return: 0 if not prime, 1 if it is prime
  */
-
-int prime_check(int s, int c)
+int help(int n, int x)
 {
-	if (s * s > c)
-	return (1);
-if (c % s == 0)
+	if (x > 9)
+		return (1);
+	else if (n % x != 0)
+		return (help(n, ++x));
 	return (0);
-	return (prime_check(s + 1, c));
 }
+
 /**
- * is_prime_number - function that checks if n is a prime number
- * @n: parameter
- * Return: 1 if n is prime number or 0 otherwise
+ * is_prime_number - function to check for prime number
+ * @n: the integer
+ * Return: 1 on success
  */
 
 int is_prime_number(int n)
 {
-	if (n <= 1)
-	return (0);
-		return (prime_check(2, n));
+	if (n == 1 || n == -1 || n == 0)
+		return (0);
+	return (help(n, 2));
 }
