@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * sqrt - return natural square root of a number
+ * help - return natural square root of a number
  * @n: the integer
  * @x: another integer
  * Return: 1 on success
  */
 
-int sqrt(int n, int x)
+int help(int n, int x)
 {
 	if (x * x == n)
 		return (x);
 	else if (x * x < n)
-	return (sqrt(n, ++x));
+	return (help(n, ++x));
 	return (-1);
 }
 /**
@@ -23,5 +23,5 @@ int sqrt(int n, int x)
 
 int _sqrt_recursion(int n)
 {
-	return (sqrt(n, 0));
+	return (help(n, 0));
 }
