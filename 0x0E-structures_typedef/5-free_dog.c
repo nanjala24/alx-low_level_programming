@@ -1,4 +1,4 @@
-#include "main_h"
+#include "dog_h"
 #include <stdlib.h>
 
 /**
