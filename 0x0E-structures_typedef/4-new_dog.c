@@ -62,8 +62,8 @@ dogdog = malloc(sizeof(dog_t));
 if (dogdog == NULL)
 	return (NULL);
 
-dogdog->ame = malloc(sizeof(char) * (_strlen(name) + 1));
-if (dogdog-> == NULL)
+dogdog->name = malloc(sizeof(char) * (_strlen(name) + 1));
+if (dogdog->name == NULL)
 {
 	free(dogdog);
 	return (NULL);
@@ -72,13 +72,13 @@ if (dogdog-> == NULL)
 dogdog->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
 if (dogdog->owner == NULL)
 {
-	free(dogdog->name;
+	free(dogdog->name);
 	free(dogdog);
 	return (NULL);
 }
 
 dogdog->name = _strcopy(dogdog->name, name);
-dog-> = age;
+dog->age = age;
 dogdog->owner = _strcpy(dogdog->owner, owner);
 
 return (dogdog);
